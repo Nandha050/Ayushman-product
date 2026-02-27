@@ -1,11 +1,9 @@
-import React from "react";
-
- export default function Home() {
-    return (
-        <main className="flex min-h-screen flex-col items-center justify-between p-24">
-            <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm">
-                <h1 className="text-4xl font-bold">Welcome kbjbkj Ayushman</h1>
-            </div>
-        </main>
-    )
-}
+import react from 'react';  
+export default function Home() {
+  return (
+    <div>
+      <h1 className='text-blue-900'>Welcome to Ayushman Product</h1>
+      <p>This is the home page of the Ayushman Product.</p>
+    </div>
+  );
+}    
